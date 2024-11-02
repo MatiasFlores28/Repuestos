@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/9576f67792.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="../index.html">
+            <img class="logo" src="../assets/img/logo.png" alt="Contacto">
+        </a>
+        <nav>
+            <ul>
+                <li class="listaItemHeader"><a class="colorList" href="../index.html">Inicio</a></li>
+                <li class="listaItemHeader"><a class="colorList" href="../pages/productos.html">Productos</a></li>
+                <li class="listaItemHeader"><a class="colorList" href="../pages/contacto.html">Contacto</a></li>
+                <li class="listaItemHeader"><a class="colorList" href="../pages/nosotros.html">Nosotros</a></li>
+                <li class="listaItemHeader"><a class="colorList" href="../pages/carrito.html"><i class="fas fa-shopping-cart"></i></a></li>
+                
+                
+            </ul>
+
+        </nav>
+    </header>
+
+    <main class="contenedorProductos">
+        <h1 class="colorMainH1">Comunicate Con Nosotros</h1>
+        <h2 class="colorMainH2">Complete El Formulario</h2>
+        <form>
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" placeholder="Ingrese Su Nombre Completo" required name="nombre" id="nombre">
+            </div>
+
+            <div>
+                <label for="apellido">Apellido:</label>
+                <input type="text" placeholder="Ingrese Su Apellido Completo" required name="apellido" id="apellido">
+            </div>
+
+            <div>
+                <label for="pass">Contraseña:</label>
+                <input type="password" placeholder="Ingrese Su Contraseña" required name="pass" id="pass">
+            </div>
+
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" placeholder="Ingrese Su Email" required name="email" id="email">
+
+            </div>
+
+            <div>
+                <label for="provincia">Ingrese En Que Provincia Vive:</label>
+                <select name="provincia" id="provincia">
+                    <option value="1">Buenos Aires</option>
+                    <option value="2" selected>Capital Federal</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="telefono">Ingrese Su Telefono</label>
+                <input type="tel" placeholder="Ingrese nu numero de telefono" required name="telefono" id="telefono">
+            </div>
+
+            <div>
+                <input type="reset" value="Limpiar Formulario">
+                <input type="submit" value="Enviar Formulario">
+            </div>
+
+        </form>
+
+        <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d52563.4397426195!2d-58.46221536406665!3d-34.573426428703655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1729080950921!5m2!1ses-419!2sar" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </main>
+
+    <footer class="colorFooter">
+        <a href="#">
+            <img class="flechaFooter" src="../assets/img/flecha.png" alt="Logo Repuestos" >
+        </a>
+
+        <nav>
+            <h3 class="colorFooterH3">Contenidos</h3>
+            <ul>
+                <li class="listaItemFooter"><a href="../index.html">Inicio</a></li>
+                <li class="listaItemFooter"><a href="../pages/productos.html">Productos</a></li>
+                <li class="listaItemFooter"><a href="../pages/contacto.html">Contacto</a></li>
+                <li class="listaItemFooter"><a href="../pages/nosotros.html">Nosotros</a></li>
+            </ul>
+        </nav>
+        <h3 class="colorFooterH3">SUSCRIBITE A NUESTRO NEWSLETTER</h3>
+            <form action="">
+                <input type="email" placeholder="Tu Email" id="emailSuscripcion" name="emailSuscripcion">
+                <input type="submit" value="SUSCRIBIRME">
+            </form>
+        </div>
+        <div>
+            <h3 class="colorFooterH3">Conectate Con Nosotros</h3>
+            <a href="https://www.facebook.com/" target="_blank">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+        </div>
+        <div>
+            <a href="" target="_parent"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+        <div>
+            <p class="colorFooterP">&copy; 2024 Repuestos Originales. Todos los derechos reservados.</p>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
