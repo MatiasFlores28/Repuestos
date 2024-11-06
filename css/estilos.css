@@ -38,6 +38,10 @@ body{
         display: inline-block;
         margin-right: 30px;
     }
+    a{
+        list-style: none;
+        text-decoration: none;
+    }
 }
 }
 
@@ -272,80 +276,103 @@ body{
 
 /* Estilos de Footer */
 
-.footer{
-background-color: rgba(31, 200, 118, 0.643);
-    font-size: 30px;
+/* Estilos Generales para el Footer */
+.footer {
+    background-color: rgb(4, 4, 5);
+    color: rgb(19, 100, 171);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'Montserrat', sans-serif;
 }
-
-.listaItemFooter {
+.footer section {
+    margin: 2% auto;
+    width: calc((100% - 20px) / 4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footerLink{
+    color: rgb(33, 51, 188);
     font-size: 20px;
     list-style: none;
-    display: inline-block;
-    margin-right: 50px;
+    text-decoration: none;
+    align-items: center;    
 }
 
-
+/* Colores y fuentes específicos */
 .colorFooter {
     background-color: rgba(1, 36, 3, 0.477);
-    font-family: 'Montserrat', sans-serif; /* Fuente específica para Footer */
-    color: #fff; /* Color de texto para Footer */
+   
 }
 
-/* Títulos y textos de Footer */
 .colorFooterH1 {
-    font-family: 'Roboto', sans-serif; /* Fuente para h1 en Footer */
-    font-size: 2.5rem; /* Tamaño de h1 en Footer */
-    color: #167e11; /* Color específico para h1 en Footer */
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    color: #167e11;
 }
 
 .colorFooterH2 {
-    font-family: 'Roboto', sans-serif; /* Fuente para h2 en Footer */
-    font-size: 2rem; /* Tamaño de h2 en Footer */
-    color: #591c0f; /* Color específico para h2 en Footer */
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    color: #591c0f;
 }
 
 .colorFooterH3 {
-    font-family: 'Montserrat', sans-serif; /* Fuente para h3 en Footer */
-    font-size: 20px; /* Tamaño de h3 en Footer */
-    color: #b7371a; /* Color específico para títulos en Footer */
+    font-size: 20px;
+    color: #b7371a;
 }
 
 .colorFooterP {
-    font-family: 'Montserrat', sans-serif; /* Fuente para párrafos en Footer */
-    font-size: 20px; /* Tamaño de párrafos en Footer */
-    color: #642929; /* Color específico para texto en Footer */
+    text-align: left;
+    font-size: 20px;
+    color: #642929;
+    width: 100%;
+    margin-top: 20px;
 }
-
-a{
-    text-decoration: none;
-}
-
 
 /* Iconos de redes sociales */
+.footer-redes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+.fa-facebook {
+    font-size: 30px;
+    color: blue;
+    
+}
+
+.fa-instagram {
+    font-size: 30px;
+    color: violet;
+    
+}
+
 .fa-whatsapp {
     color: #045522;
     font-size: 50px;
     position: fixed;
-    bottom: 80px; /* Se sube un poco para no coincidir con la flecha */
-    right: 30px; /* Alineado a la derecha, debajo de la flecha */
+    bottom: 80px;
+    right: 30px;
     z-index: 999;
 }
 
-.flechaFooter{
+/* Flecha para ir arriba */
+.flechaFooter {
     font-size: 50px;
     position: fixed;
     bottom: 20px;
-    right: 30px; /* Cambiado para alinearlo a la derecha */
-    color: #25D366; /* Verde para que coincida con WhatsApp */
+    right: 30px;
+    color: #25D366;
     z-index: 999;
 }
 
-.fa-facebook {
-    color: blue;
-    font-size: 64px;
-}
 
-.fa-instagram {
-    color: violet;
-    font-size: 64px;
-}
+
+

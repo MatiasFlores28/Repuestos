@@ -17,11 +17,11 @@
         </a>
         <nav>
             <ul>
-                <li><a class="colorList" href="#">Inicio</a></li>
-                <li><a class="colorList" href="./pages/productos.html">Productos</a></li>
-                <li><a class="colorList" href="./pages/contacto.html">Contacto</a></li>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="./pages/productos.html">Productos</a></li>
+                <li><a href="./pages/contacto.html">Contacto</a></li>
                 <li><a href="#nosotros">Nosotros</a></li>
-                <li><a class="colorList" href="./pages/carrito.html"><i class="fas fa-shopping-cart"></i></a></li> 
+                <li><a href="./pages/carrito.html"><i class="fas fa-shopping-cart"></i></a></li> 
             </ul>
         </nav>
     </header>
@@ -145,27 +145,31 @@
         <a href="#">
             <img class="flechaFooter" src="./assets/img/flecha.png" alt="arriba">
         </a>
-        <nav>
-            <h3 class="colorFooterH3">Contenidos</h3>
-            <ul>
-                <li class="listaItemFooter"><a href="./index.html">Inicio</a></li>
-                <li class="listaItemFooter"><a href="./pages/productos.html">Productos</a></li>
-                <li class="listaItemFooter"><a href="./pages/contacto.html">Contacto</a></li>
-                <li class="listaItemFooter"><a href="./pages/nosotros.html">Nosotros</a></li>
-            </ul>
-        </nav>
-        <nav>
-            <h3 class="colorFooterH3">¿Necesitas Ayuda Para Cambiar Algún Repuesto?</h3>
-            <a class="listaItemFooter" href="./pages/tutoriales.html">Tutoriales</a>
-        </nav>
-        <div>
+        
+        <!-- Sección de Contenidos -->
+        <section class="section">
+            <nav>
+                <h3 class="colorFooterH3">Contenidos</h3>
+                <ul class="footerLink">
+                    <li><a class="footerLink" href="./index.html">Inicio</a></li>
+                    <li><a class="footerLink" href="./pages/productos.html">Productos</a></li>
+                    <li><a class="footerLink" href="./pages/contacto.html">Contacto</a></li>
+                    <li><a class="footerLink" href="./pages/nosotros.html">Nosotros</a></li>
+                </ul>
+            </nav>
+        </section>
+        
+        <!-- Sección de Suscripción -->
+        <section class="suscribite">
             <h3 class="colorFooterH3">SUSCRIBITE A NUESTRO NEWSLETTER</h3>
             <form action="">
                 <input type="email" placeholder="Tu Email" id="emailSuscripcion" name="emailSuscripcion">
                 <input type="submit" value="SUSCRIBIRME">
             </form>
-        </div>
-        <div>
+        </section>
+        
+        <!-- Sección de Redes Sociales -->
+        <section class="footer-redes">
             <h3 class="colorFooterH3">Conectate Con Nosotros</h3>
             <a href="https://www.facebook.com/" target="_blank">
                 <i class="fab fa-facebook"></i>
@@ -173,23 +177,13 @@
             <a href="https://www.instagram.com/" target="_blank">
                 <i class="fa-brands fa-instagram"></i>
             </a>
-        </div>
-        <div>
-            <address class="colorFooterP">
-                <p>Dirección: Calle Falsa 123, Palermo, Ciudad de Buenos Aires</p>
-                <p>Teléfono: (55) 555-5555</p>
-                <p>Correo electrónico: contacto@petshop.com</p>
-            </address>
-
-        </div>
-        <div>
             <a href="" target="_parent"><i class="fa-brands fa-whatsapp"></i></a>
-        </div>
-        <div class="colorFooterP">
-            <p>&copy; 2024 Repuestos Originales. Todos los derechos reservados.</p>
-        </div>
-
-    </footer>
+        </section>
+            <div class="colorFooterP">
+                <p>&copy; 2024 Repuestos Originales. Todos los derechos reservados.</p>
+            </div>
+        </footer>
+        
 </body>
 
 </html>
